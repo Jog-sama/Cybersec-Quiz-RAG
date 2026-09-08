@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# env file with secrets
+.env
+
+# chroma database files
+chroma_data/
+
+# uploaded documents
+uploaded_docs/

@@ -1,0 +1,18 @@
+[project]
+name = "cybersec-quiz-rag"
+version = "0.1.0"
+description = "RAG powered cybersecurity quiz generator for studying"
+readme = "README.md"
+authors = [
+    { name = "Atharva Jog", email = "aj458@duke.edu" },
+    { name = "Shweta Mittal", email = "sm117@duke.edu" },
+]
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.35.0",
+    "openai>=1.30.0",
+    "chromadb>=0.5.0",
+    "pymupdf>=1.24.0",
+    "python-dotenv>=1.0.0",
+    "rank-bm25>=0.2.2",
+]
